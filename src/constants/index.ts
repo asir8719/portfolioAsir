@@ -80,7 +80,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     platform: 'Twitter',
-    url: 'https://twitter.com/yourusername',
+    url: 'https://x.com/ashadkhan7646?t=6ESTGIRdrOFiil5KD4ULOQ&s=08 ',
     icon: 'Twitter',
   },
   {
