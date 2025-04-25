@@ -9,14 +9,14 @@ import Contact from './components/Contact';
 function App() {
   useEffect(() => {
     // Update page title
-    document.title = "Your Name | Full Stack Developer";
+    document.title = "MD Asir Khan | Full Stack Developer";
     
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
+      anchor.addEventListener('click', (e) => {
         e.preventDefault();
         
-        const targetId = this.getAttribute('href')?.substring(1);
+        const targetId = (e.currentTarget as HTMLAnchorElement).getAttribute('href')?.substring(1);
         if (!targetId) return;
         
         const targetElement = document.getElementById(targetId);

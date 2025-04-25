@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NAV_ITEMS } from '../constants';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, CrossIcon } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +18,11 @@ const Navbar: React.FC = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const handleClose = () => {
+    setIsOpen(false);
+    document.body.style.overflow = 'auto'; // Enable scrolling
+  }
 
   return (
     <header 
@@ -67,6 +72,7 @@ const Navbar: React.FC = () => {
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
+        <p><CrossIcon onClick={() => handleClose()} className='translate-x-4 translate-y-4 rotate-45' /></p>
         <div className="flex flex-col items-center justify-center h-full">
           <ul className="flex flex-col items-center space-y-8">
             {NAV_ITEMS.map((item) => (

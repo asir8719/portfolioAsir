@@ -78,9 +78,9 @@ const Skills: React.FC = () => {
           <h3 className="text-2xl font-bold mb-8 text-white">Other Technologies</h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "Git", "Docker", "RESTful APIs", "Redux", 
-              "SASS", "GraphQL", "CI/CD", "Jest", 
-              "AWS", "Firebase", "Figma", "Responsive Design"
+              "Git", "RESTful APIs", "Redux", 
+              "SASS", "TypeScript", 
+              "Firebase", "Figma", "Responsive Design"
             ].map((tech, index) => (
               <span 
                 key={index} 

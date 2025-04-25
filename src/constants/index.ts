@@ -85,7 +85,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     platform: 'Email',
-    url: 'vertexowebstudio@gmail.com',
+    url: 'https://vertexowebstudio@gmail.com',
     icon: 'Mail',
   },
 ];

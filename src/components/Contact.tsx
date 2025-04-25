@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-gray-400">Email</p>
-                    <a href="mailto:your.email@example.com" className="text-white hover:text-cyan-400 transition-colors">
+                    <a href="vertexowebstudio@gmail.com" className="text-white hover:text-cyan-400 transition-colors">
                       vertexowebstudio@gmail.com
                     </a>
                   </div>

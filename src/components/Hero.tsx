@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
           <div className="w-full md:w-1/2 space-y-6 order-2 md:order-1">
             <h3 className="text-cyan-400 text-xl font-medium">Hello, I'm</h3>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-              Your Name
+              Asir Khan
             </h1>
             <div className="h-16">
               <h2 className="text-2xl md:text-3xl font-medium text-gray-300 mb-4">
@@ -102,9 +102,9 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-cyan-500/20 rounded-full blur-3xl animate-pulse"></div>
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-cyan-500/50">
                 <img 
-                  src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                  src="./selfie3.jpg" 
                   alt="Profile" 
-                  className="w-full h-full object-cover"
+                  className="w-[100%] h-[100%] object-cover"
                 />
               </div>
             </div>
