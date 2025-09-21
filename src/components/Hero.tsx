@@ -102,7 +102,7 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-cyan-500/20 rounded-full blur-3xl animate-pulse"></div>
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-cyan-500/50">
                 <img 
-                  src="./selfie3.jpg" 
+                  src="./asirimg.jpg" 
                   alt="Profile" 
                   className="w-[100%] h-[100%] object-cover"
                 />
